@@ -141,7 +141,7 @@ form_and_map = """
 <footer id="canli-konum" class="border-t border-amber-500/25 bg-black/95 mt-8">
   <div class="max-w-6xl mx-auto px-4 py-6 flex flex-col md:flex-row items-center justify-between gap-2 text-sm text-zinc-300">
     <div><strong class="text-amber-400">NAZTECH BİLİŞİM</strong> — Karaköprü / Şanlıurfa</div>
-    <div>Kurucu: <strong class="text-white">Ahmet Barış Fener</strong> | Tel / WA: <a href="tel:+905530341894" class="text-amber-400 font-semibold">0553 034 18 94</a></div>
+    <div>Kurucu: <strong class="text-white">Muhammet Fatih Doğan</strong> | Tel / WA: <a href="tel:+905530341894" class="text-amber-400 font-semibold">0553 034 18 94</a></div>
   </div>
   <div class="w-full h-80 border-t border-zinc-800">
     <iframe title="NAZTECH Bilişim Karaköprü Şanlıurfa Canlı Konum" src="https://google.com/maps?q=Karak%C3%B6pr%C3%BC,%20%C5%9Eanl%C4%B1urfa&output=embed" class="w-full h-full border-0" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
