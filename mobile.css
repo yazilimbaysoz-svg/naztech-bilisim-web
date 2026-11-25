@@ -70,3 +70,5 @@ input[type="search"], input[type="text"], input[type="tel"], select, textarea { 
     flex-shrink: 0 !important;
   }
 }
+
+.bg-gold{background:linear-gradient(135deg,#D4AF37,#f3d060)!important;color:#04080f!important;font-weight:700!important}
