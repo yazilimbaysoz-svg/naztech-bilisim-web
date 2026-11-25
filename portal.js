@@ -18,7 +18,7 @@
   'use strict';
 
   var VERSION = '1.0.0';
-  var WA_PHONE = '905013731859';
+  var WA_PHONE = '905530341894';
   var PREFIX = 'nzp.v1.';
   var KEYS = {
     quotes: PREFIX + 'quotes',
@@ -59,11 +59,11 @@
       { id: 'D-000204', name: 'N2MOBİL GPS Takip Cihazı', serial: 'NZ-N2M-FLEET-31', warrantyEnd: '2026-12-20', status: 'Aktif', location: 'Araç Filo · 31 No' }
     ],
     tickets: [
-      { id: 'T-000301', type: 'ticket', title: 'Kayıt cihazında görüntü kaybı', description: 'Kamera 3 ve 4 numaralı kanallarda kesintili görüntü alınıyor.', status: 'Devam ediyor', priority: 'Yüksek', createdAt: '2026-11-18T09:20:00.000Z', customer: 'Demo Müşteri', role: 'customer', device: 'HIKVISION DS-7608NXI K Kayıt Cihazı', serial: 'NZ-HIK-7608-014', address: 'Karaköprü / Şanlıurfa', phone: '05013731859', reference: '' },
-      { id: 'T-000302', type: 'ticket', title: 'Alarm paneli periyodik bakım', description: 'Aylık kontrol ve yedek batarya değişimi talebi.', status: 'Açık', priority: 'Normal', createdAt: '2026-11-21T11:05:00.000Z', customer: 'Demo Bayi', role: 'dealer', device: 'LAVOX Yangın İhbar Paneli', serial: 'NZ-LVX-PNL-007', address: 'Merkez / Şanlıurfa', phone: '05013731859', reference: '' }
+      { id: 'T-000301', type: 'ticket', title: 'Kayıt cihazında görüntü kaybı', description: 'Kamera 3 ve 4 numaralı kanallarda kesintili görüntü alınıyor.', status: 'Devam ediyor', priority: 'Yüksek', createdAt: '2026-11-18T09:20:00.000Z', customer: 'Demo Müşteri', role: 'customer', device: 'HIKVISION DS-7608NXI K Kayıt Cihazı', serial: 'NZ-HIK-7608-014', address: 'Karaköprü / Şanlıurfa', phone: '05530341894', reference: '' },
+      { id: 'T-000302', type: 'ticket', title: 'Alarm paneli periyodik bakım', description: 'Aylık kontrol ve yedek batarya değişimi talebi.', status: 'Açık', priority: 'Normal', createdAt: '2026-11-21T11:05:00.000Z', customer: 'Demo Bayi', role: 'dealer', device: 'LAVOX Yangın İhbar Paneli', serial: 'NZ-LVX-PNL-007', address: 'Merkez / Şanlıurfa', phone: '05530341894', reference: '' }
     ],
     discoveries: [
-      { id: 'K-000401', type: 'discovery', title: 'Keşif Talebi · Yeni Üretim Hattı', description: 'Yeni hat için kamera ve enerji altyapısı yerinde keşif talebi.', status: 'Açık', priority: 'Normal', createdAt: '2026-11-15T08:40:00.000Z', customer: 'Demo Müşteri', role: 'customer', device: '', serial: '', address: 'Organize Sanayi / Şanlıurfa', phone: '05013731859', reference: 'Q-000101' }
+      { id: 'K-000401', type: 'discovery', title: 'Keşif Talebi · Yeni Üretim Hattı', description: 'Yeni hat için kamera ve enerji altyapısı yerinde keşif talebi.', status: 'Açık', priority: 'Normal', createdAt: '2026-11-15T08:40:00.000Z', customer: 'Demo Müşteri', role: 'customer', device: '', serial: '', address: 'Organize Sanayi / Şanlıurfa', phone: '05530341894', reference: 'Q-000101' }
     ]
   };
 
@@ -677,7 +677,7 @@
     var waInput = h('input', { type: 'checkbox', id: 'nzpWaOpt', name: 'whatsapp', checked: true });
     var waLabel = h('label', { class: 'nzp-check', for: 'nzpWaOpt' }, [
       waInput,
-      h('span', { text: 'Oluşturulan iş emrini WhatsApp üzerinden 0501 373 18 59 numarasına gönder (LOCAL DEMO)' })
+      h('span', { text: 'Oluşturulan iş emrini WhatsApp üzerinden 0553 034 18 94 numarasına gönder (LOCAL DEMO)' })
     ]);
     var requestError = h('p', { id: 'nzpRequestError', class: 'nzp-error', role: 'alert', 'aria-live': 'polite', text: '' });
     var requestSubmit = h('button', { type: 'submit', class: 'nzp-btn', text: 'Servis Kaydı Oluştur' });

@@ -6,7 +6,7 @@
 (function () {
   "use strict";
 
-  var WHATSAPP_NUMBER = "905013731859";
+  var WHATSAPP_NUMBER = "905530341894";
   var CATALOG_ID_PATTERN = /^[1-8]$/;
   var GREETING_TEXT =
     "Merhaba Naztech Bilişim, hizmetleriniz hakkında bilgi almak ve ücretsiz keşif/teklif talebi oluşturmak istiyorum. Görüşme talebimi iletir misiniz?";

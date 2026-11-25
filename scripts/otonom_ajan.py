@@ -107,7 +107,7 @@ form_and_map = """
 <section id="kurumsal-talep" class="max-w-5xl mx-auto px-4 py-14">
   <div class="rounded-2xl border border-amber-500/30 bg-zinc-950/90 p-6 md:p-10 shadow-2xl">
     <h2 class="text-2xl md:text-3xl font-extrabold text-amber-400 tracking-wide mb-2">KURUMSAL TEKLİF &amp; KEŞİF TALEBİ</h2>
-    <p class="text-zinc-400 text-sm mb-6">Ad-Soyad ve Telefon bilgilerinizi doldurun; sistem doğrudan WhatsApp (0501 373 18 59) ve kurumsal e-posta hattımıza resmi iş emri açar.</p>
+    <p class="text-zinc-400 text-sm mb-6">Ad-Soyad ve Telefon bilgilerinizi doldurun; sistem doğrudan WhatsApp (0553 034 18 94) ve kurumsal e-posta hattımıza resmi iş emri açar.</p>
     <form id="naztechWorkOrderForm" class="grid grid-cols-1 md:grid-cols-2 gap-4" novalidate>
       <div>
         <label for="nzFullName" class="block text-xs uppercase tracking-wider text-amber-300 mb-1">Ad-Soyad *</label>
@@ -141,7 +141,7 @@ form_and_map = """
 <footer id="canli-konum" class="border-t border-amber-500/25 bg-black/95 mt-8">
   <div class="max-w-6xl mx-auto px-4 py-6 flex flex-col md:flex-row items-center justify-between gap-2 text-sm text-zinc-300">
     <div><strong class="text-amber-400">NAZTECH BİLİŞİM</strong> — Karaköprü / Şanlıurfa</div>
-    <div>Kurucu: <strong class="text-white">Ahmet Barış Fener</strong> | Tel / WA: <a href="tel:+905013731859" class="text-amber-400 font-semibold">0501 373 18 59</a></div>
+    <div>Kurucu: <strong class="text-white">Ahmet Barış Fener</strong> | Tel / WA: <a href="tel:+905530341894" class="text-amber-400 font-semibold">0553 034 18 94</a></div>
   </div>
   <div class="w-full h-80 border-t border-zinc-800">
     <iframe title="NAZTECH Bilişim Karaköprü Şanlıurfa Canlı Konum" src="https://google.com/maps?q=Karak%C3%B6pr%C3%BC,%20%C5%9Eanl%C4%B1urfa&output=embed" class="w-full h-full border-0" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -165,7 +165,7 @@ form_and_map = """
       return;
     }
     if (!/^(05\d{9}|5\d{9}|905\d{9})$/.test(phoneDigits)) {
-      err.textContent = "Lütfen geçerli bir cep telefonu numarası giriniz (Örn: 05013731859).";
+      err.textContent = "Lütfen geçerli bir cep telefonu numarası giriniz (Örn: 05530341894).";
       return;
     }
     err.textContent = "";
